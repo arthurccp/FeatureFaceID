@@ -26,7 +26,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ND-Ym-NWN">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ND-Ym-NWN">
                                 <rect key="frame" x="20" y="451" width="374" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Login"/>
@@ -70,8 +70,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="SwitchOutlet" destination="X8v-iu-CQq" id="iVb-pH-iN1"/>
                         <outlet property="loginBtnoutlet" destination="7ND-Ym-NWN" id="NWY-1t-T1C"/>
+                        <outlet property="switchOutlet" destination="X8v-iu-CQq" id="1WK-0t-HSH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

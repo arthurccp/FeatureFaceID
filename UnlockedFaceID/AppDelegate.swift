@@ -9,10 +9,10 @@ import UIKit
 import LocalAuthentication
 
 @main
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var context = LAContext()
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         return true
@@ -31,10 +31,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
     
-    func applicationWillEnterForeground(_ application: UIApplication) {
+    func applicationDidBecomeActive(_ application: UIApplication) {
         
     }
-
 
     
 }
