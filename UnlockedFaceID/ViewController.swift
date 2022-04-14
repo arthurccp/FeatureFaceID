@@ -13,7 +13,6 @@ class ViewController: UIViewController{
     @IBOutlet weak var loginBtnoutlet: UIButton!
     @IBOutlet weak var switchOutlet: UISwitch!
     
-    var validateFaceID: Bool = false
 
     override func viewDidLoad () {
         super.viewDidLoad ()
@@ -21,9 +20,7 @@ class ViewController: UIViewController{
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-//        SecurityManager.authenticate(callback: { status in
-//            self.validateFaceID = status
-//        })
+
     }
     
     @IBAction func SwitchAction(_ sender: UISwitch) {
@@ -31,9 +28,6 @@ class ViewController: UIViewController{
     }
     
     @IBAction func loginButtonAct(_ sender: UIButton) {
-        if validateFaceID == true {
-          
-        }
     }
     
 

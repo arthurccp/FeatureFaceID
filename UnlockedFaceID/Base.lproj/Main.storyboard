@@ -40,7 +40,7 @@
                                     <action selector="SwitchAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ovq-yk-Y1L"/>
                                 </connections>
                             </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disable FaceID" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vK7-GF-vck">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" FaceID" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vK7-GF-vck">
                                 <rect key="frame" x="135" y="831" width="181" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="181" id="bkM-7c-Ic4"/>

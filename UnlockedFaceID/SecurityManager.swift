@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 import LocalAuthentication
 
 class SecurityManager {
@@ -20,18 +21,25 @@ class SecurityManager {
         if !needsAuthentication { return }
         if context.canEvaluatePolicy(.deviceOwnerAuthentication, error: &error) {
             let reason = "Login into the application"
-            return context.evaluatePolicy(.deviceOwnerAuthentication, localizedReason: reason) { (success, error) in
+            return context.evaluatePolicy(.deviceOwnerAuthentication, localizedReason: reason) { (success, error) in                
                 if success {
                     self.needsAuthentication = false
                     return print("sucess")
                 } else {
                     self.needsAuthentication = true
+                    
+                    
+    
                     return print("failed")
+    
                 }
             }
         } else {
+           
+
             print ("Error found \(error?.localizedDescription ?? "NOTHING FOUND")")
         }
+
     }
     
 }
